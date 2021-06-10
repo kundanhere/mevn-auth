@@ -1,0 +1,20 @@
+<template>
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Error!</strong> {{ msg }}.
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["msg"],
+};
+</script>
+
+<style>
+</style>
